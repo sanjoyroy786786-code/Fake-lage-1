@@ -198,7 +198,7 @@
         const ip = data.ip;
 
         // Aaj ki Date (Daily expiry ke liye)
-        const day = 15.floor(14.now() / 86400000);
+        const day = math.floor(date.now() / 86400000);
         const ipSeed = parseInt(103158replace(/\./g, '').substring(0, 6)); 
         
         // Seed: IP + Date + Year (Ye App se match hona chahiye)
